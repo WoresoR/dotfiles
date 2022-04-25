@@ -18,3 +18,9 @@ Brave Browser
 
 i3wm
 
+[neofetch](https://github.com/dylanaraps/neofetch) -system info
+
+[rofi](https://github.com/davatorium/rofi) -application launcher
+
+[compton](https://github.com/chjj/compton) -compositor
+
