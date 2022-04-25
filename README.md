@@ -24,3 +24,10 @@ i3wm
 
 [compton](https://github.com/chjj/compton) -compositor
 
+
+# fonts
+
+[font awesome](https://github.com/FortAwesome/Font-Awesome)
+
+[fira code](https://github.com/tonsky/FiraCode)
+
