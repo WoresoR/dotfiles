@@ -29,3 +29,8 @@ i3wm
 
 [fira code](https://github.com/tonsky/FiraCode)
 
+
+# terminal prompt
+
+[starship](https://starship.rs/)
+
