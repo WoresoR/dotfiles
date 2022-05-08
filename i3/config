@@ -44,7 +44,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym $mod+Shift+Return exec brave-browser
 
 exec brave-browser
-exec_always --no-startup-id feh --bg-scale /home/wrsr/Pictures/space.jpg
+exec_always --no-startup-id feh --bg-fill /home/wrsr/Pictures/moon.jpg
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -53,6 +53,8 @@ default_border pixel 1
 default_floating_border pixel 1
 
 
+
+bindsym $mod+Shift+d exec firefox
 
 # start a terminal
 bindsym $mod+Return exec kitty
@@ -125,12 +127,12 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 "
-set $ws2 "2 "
-set $ws3 "3 "
-set $ws4 "4 "
-set $ws5 "5 "
-set $ws10 "10 "
+set $ws1 "Browser"
+set $ws2 "Chat"
+set $ws3 "Dev"
+set $ws4 "Games"
+set $ws5 "Bank"
+set $ws10 "Music"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -160,7 +162,7 @@ assign [class="Brave-browser"] $ws1
 
 assign [class="discord"] $ws2
 assign [class="Ripcord"] $ws2
-
+assign [class="firefox"] $ws2
 assign [class="Code"] $ws3
 
 assign [class="Steam"] $ws4
@@ -176,10 +178,10 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
+        # Pressing left will shrink the windowâ€™s width.
+        # Pressing right will grow the windowâ€™s width.
+        # Pressing up will shrink the windowâ€™s height.
+        # Pressing down will grow the windowâ€™s height.
         bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
@@ -202,10 +204,10 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-set $bg-color 	         #21242b
-set $inactive-bg-color   #1B2229
-set $text-color          #F0ECEB
-set $inactive-text-color #5B626B
+set $bg-color 	         #131313
+set $inactive-bg-color   #131313
+set $text-color          #d6dae4
+set $inactive-text-color #808080
 set $urgent-bg-color     #ff6c6b
 
 # window colors
@@ -230,3 +232,4 @@ bar {
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}	
 }
+                                                          
