@@ -1,9 +1,12 @@
 # screenshots
 
 Screenshots shown below ⇣
-![desktop](https://user-images.githubusercontent.com/83631552/165183575-8253a78e-5f8d-458c-a48a-82448c347a73.png)
-![rofi](https://user-images.githubusercontent.com/83631552/165183594-aef2750a-afe9-406e-b4b0-bf28f8461224.png)
-![dev](https://user-images.githubusercontent.com/83631552/165183662-232691c4-6067-453f-8496-91e0ba6aef05.png)
+![desktop](https://user-images.githubusercontent.com/83631552/167285732-01e8b532-a180-4fad-a4c8-31650f0a719f.png)
+
+![rofi](https://user-images.githubusercontent.com/83631552/167285770-49da22fa-7d80-4918-a152-590a773106d1.png)
+
+![dev](https://user-images.githubusercontent.com/83631552/167285797-f470c352-71b9-4ca9-ada4-a45f9db26938.png)
+
 
 
 # software used
